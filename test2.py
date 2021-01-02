@@ -201,7 +201,7 @@ class MyWindow(QMainWindow):
         self.isSB = True
         from slacker import Slacker
 
-        slack = Slacker('xoxb-1584999041447-1599979493891-Mnkjkn7pELYjxQ0mBUVntaHe')
+        slack = Slacker('xoxb-1584999041447-1599979493891-RDeWTYmrCahrVvFDPSCZ33E2')
 
         # Send a message to #general channel
         slack.chat.post_message('#stock', 'Hello fellow slackers!'+ codes[0])    
